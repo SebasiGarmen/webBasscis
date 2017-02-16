@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% for alumno in lista%}
+  <h1>  {{alumno["nombre"]}}  </h1>
+    <h4> {{alumno["bio"]}} </h4>
+{% endfor %}
+
+
+  {% endblock %}

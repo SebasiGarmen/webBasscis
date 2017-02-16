@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h1>Biografia de {{ nombreDePersona }}</h1>
+    <h3>Edad: {{ edadDePersona }}</h3>
+    <p>
+      {{ nombreDePersona }} tiene {{ edadDePersona }} y estudian en {{ escuelaDePersona }}. {{ nombreDePersona }} trabaja en {{ trabajoDepersona }}. <br>
+      El es buena persona.
+    </p>
+
+  {% endblock %}
